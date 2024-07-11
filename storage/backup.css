@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Julius+Sans+One&family=Playwrite+DE+Grund:wght@100..400&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    font-family: "Julius Sans One", sans-serif;
+    letter-spacing: 2px;
+}
+.navbar{
+    font-family: "Julius Sans One", sans-serif;
+    background-color:#090979;
+}
+.navbar-nav a:hover{
+color: #ff006c;
+font-weight: 600;
+}
+.dropdown-toggle .dropdown-menu{
+    background-color:rgb(236, 233, 227);
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style:oblique;
+}
+.list{
+    text-decoration: none;
+    color:black;
+}
+.dropdown-menu .dropdown-item:hover{
+    background-color: #090979;
+    color: #ff006c;
+}
+#home{
+    background-image:url(./image/cloud-data-storage-rack-concept-glass-cube-cloudscape-digital-metaverse-server-global-network-business-web-database-backup-computer-private-infrastructure-technology.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Julius Sans One", sans-serif;
+    height: 100%;
+}
+.textc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Julius Sans One", sans-serif;
+}
+.textc p{
+    color:white;
+    font-size: small;
+    backdrop-filter: blur(2px);
+    width: 50%;
+}
+
+.textc h2{
+    color:rgb(235, 220, 7);
+    font-weight: 600;
+    backdrop-filter: blur(2px);
+   
+}
+.products{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+.storei{
+display: flex;
+justify-content: center;
+align-content: center;
+}
+.storei img{
+    width: 100%;
+    height: 100%;
+}
+.stock h1{
+    color: #d8dd44;
+}
+.stock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.mode{
+    background-color:#020024;
+}
+.cards-1{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+}
+.cards-2{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+}
+.cards-3{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+}
+.cards-4{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+}
+.bars{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.box-1{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height:300px;  
+}
+.boxes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:start;
+    align-content:start;
+    gap: 10px;
+    text-align: center;
+}
+.box-1 h1{
+    color: #d8dd44;
+}
+.stock h4{
+    color: #08e086;
+}
+table{
+    width: 100%;
+    height: 70%;
+   padding: 50px;
+   font-size: large;
+   text-align: center;  
+}
+table tr td{
+   align-content: center;
+}
+table i{
+    font-size: xx-large;
+}
+.caption-end{
+    font-size: small;
+}
+.lasts2,.lasts3,.lasts4,.lasts5{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 10px;
+   }
+   .lastpage h5{
+     color: #d8dd44;
+   }
+   .lastpage{
+       background-color: #090979;
+       padding: 10px;
+    padding-top: 30px;
+   }
+
+@media screen and (max-width:320px ){
+    .storei img{
+        width: 100%;
+        height: 100%;
+    }
+    .cards-1,.cards-2,.cards-3,.cards-4{
+        width: 100%;
+        height: 100%;
+    }
+    .schange1{
+        order: 2;
+    }
+    .schange2{
+        order: 1;
+    }
+    .bars{
+        display: flex;
+        flex-direction: column;
+    }
+    .box-1{
+        height: 100%;
+    }
+}
+ @media screen and (max-width:640px ) {
+    .storei img{
+        width: 100%;
+        height: 100%;
+    }
+    .cards-1,.cards-2,.cards-3,.cards-4{
+        width: 100%;
+        height: 100%;
+    }
+    .schange1{
+        order: 2;
+    }
+    .schange2{
+        order: 1;
+    }
+    .textc{
+        font-size: small;
+    }
+    .bars{
+        display: flex;
+        flex-direction: column;
+    }
+    .mcontent{
+        width: 100%;
+        color: #ff006c;
+        padding-bottom: 10px;
+    }
+    .bars{
+        display: flex;
+        flex-direction: column;
+    }
+    .box-1{
+        height: 100%;
+    }
+    
+}
+@media screen and  (min-width:760px){
+    .storei img{
+        width: 100%;
+        height: 100%;
+    }
+    .cards-1,.cards-2,.cards-3,.cards-4{
+        width: 100%;
+        height: 120%;
+    }
+    .schange1{
+        order: 2;
+    }
+    .schange2{
+        order: 1;
+    }
+    .textc{
+        font-size: small;
+    }
+    .bars{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+    .box-1{
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    }
+}
+@media screen and  (min-width:1000px){
+    .schange1{
+        order: 1;
+    }
+    .schange2{
+        order: 2;
+    }
+    .cards-1,.cards-2,.cards-3,.cards-4{
+        width: 100%;
+        height: 85%;
+    }
+    .box-1{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        height:300px;  
+    }
+    .boxes{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:start;
+        align-content:start;
+        gap: 10px;
+        text-align: center;
+    }
+}
+
+@media screen and  (min-width:1400px){
+    .schange1{
+        order: 1;
+    }
+    .schange2{
+        order: 2;
+    }
+    .bars{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .box-1{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        height:300px;  
+    }
+    .boxes{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:start;
+        align-content:start;
+        gap: 10px;
+        text-align: center;
+    }
+}

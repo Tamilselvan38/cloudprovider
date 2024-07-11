@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Julius+Sans+One&family=Playwrite+DE+Grund:wght@100..400&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    font-family: "Julius Sans One", sans-serif;
+    letter-spacing: 2px;
+}
+.navbar{
+    font-family: "Julius Sans One", sans-serif;
+    background-color:#090979;
+}
+.navbar-nav a:hover{
+color: #ff006c;
+font-weight: 600;
+}
+.dropdown-toggle .dropdown-menu{
+    background-color:rgb(236, 233, 227);
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style:oblique;
+}
+.list{
+    text-decoration: none;
+    color:black;
+}
+.dropdown-menu .dropdown-item:hover{
+    background-color: #090979;
+    color: #ff006c;
+}
+#home{
+    height: 80%;
+    width: 100%;
+    background-color:#040132;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Julius Sans One", sans-serif;
+    height: 100%;
+}
+.textc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Julius Sans One", sans-serif;
+}
+.textc p{
+    color:white;
+    font-size: small;
+    backdrop-filter: blur(2px);
+    width: 50%;
+    backdrop-filter: blur(2px);
+}
+
+.textc h2{
+    color:white;
+    font-weight: 600;
+    backdrop-filter: blur(2px);
+}
+.textc input{
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+.mode{
+    background-color:#020024;
+}
+.box-1{
+    width: 350px;
+    height: 350px;
+    border: 1px solid;
+    border-color: rgb(73, 74, 75);
+    padding: 25px;
+    text-align: center;
+}
+.boxes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+     padding-top: 100px;
+}
+.products{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+.box-1 h1{
+    color: yellow;
+}
+.lasts2,.lasts3,.lasts4,.lasts5{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 10px;
+   }
+   .lastpage h5{
+     color: #d8dd44;
+   }
+   .lastpage{
+       background-color: #090979;
+       padding: 10px;
+    padding-top: 30px;
+   }
